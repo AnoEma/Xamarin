@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VariosPagina.Master"
+             Title="Master">
+    
+    <StackLayout Orientation="Vertical"  BackgroundColor="Aqua">
+            <Label BackgroundColor="CadetBlue"/>
+            <Button Text="Goku" x:Name="btnPrimeiro" Clicked="btnPrimeiro_Clicked"/>
+            <Button Text="Supermen" x:Name="btnSegundo" Clicked="btnSegundo_Clicked"/>
+            <Button Text="Batmen" x:Name="btnTerco" Clicked="btnTerco_Clicked"/>
+            <Button Text="Thor" x:Name="btnQuarto" Clicked="btnQuarto_Clicked"/>
+            <Button Text="Homen de Ferro" x:Name="btnQuinto" Clicked="btnQuinto_Clicked"/>
+        </StackLayout>
+</ContentPage>

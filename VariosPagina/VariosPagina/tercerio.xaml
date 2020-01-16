@@ -4,16 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="VariosPagina.segundo">
+             x:Class="VariosPagina.tercerio">
     <ContentPage.Content>
         <StackLayout Orientation = "Horizontal" HorizontalOptions = "Center" VerticalOptions="Center">
-            <Label Text = "Deseja criar blah..blah .... Por favor, clique aqui"/>
-            <Label x:Name = "lblFormulario" Text = "Realizar" TextColor = "Red">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding ClickCommand}" 
-                                  CommandParameter="https://br.linkedin.com/in/arnoboys"/>
-                </Label.GestureRecognizers>
-            </Label>
+          
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

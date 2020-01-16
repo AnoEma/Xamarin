@@ -10,12 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace VariosPagina
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class segundo : ContentPage
+    public partial class Formulario : ContentPage
     {
-        public segundo()
+        public Formulario()
         {
             InitializeComponent();
-            this.BindingContext = new FormularioViewModel();
+           
         }
     }
 }

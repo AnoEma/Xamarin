@@ -44,7 +44,8 @@ namespace VariosPagina
         public async void btnQuinto_Clicked(object sender, EventArgs e)
         {
             App.MasterD.IsPresented = false;
-            await App.MasterD.Detail.Navigation.PushAsync(new primeira());
+            await App.MasterD.Detail.Navigation.PushAsync(new Desinho());
         }
+
     }
 }

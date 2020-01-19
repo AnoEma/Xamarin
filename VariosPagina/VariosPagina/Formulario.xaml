@@ -8,9 +8,7 @@
              Title="Formulario">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Voce"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

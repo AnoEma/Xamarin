@@ -7,7 +7,7 @@
              x:Class="VariosPagina.segundo">
     <ContentPage.Content>
         <StackLayout Orientation = "Horizontal" HorizontalOptions = "Center" VerticalOptions="Center">
-            <Label Text = "Deseja criar blah..blah .... Por favor, clique aqui"/>
+            <Label Text = "Deseja criar blah..blah .... Meu Link, clique aqui"/>
             <Label x:Name = "lblFormulario" Text = "Realizar" TextColor = "Red">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding ClickCommand}" 

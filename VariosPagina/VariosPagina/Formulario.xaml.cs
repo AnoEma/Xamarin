@@ -15,7 +15,7 @@ namespace VariosPagina
         public Formulario()
         {
             InitializeComponent();
-           
-        }
+         
+        }          
     }
 }

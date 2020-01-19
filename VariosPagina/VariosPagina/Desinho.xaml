@@ -8,9 +8,8 @@
              Title="Tab-1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Arnoboys" x:Name="lblStatus" VerticalOptions="Center" HorizontalOptions="Center" />
+            <WebView x:Name="navegador" VerticalOptions="FillAndExpand" Navigating="PagOnNavigating" Navigated="PagOnNavigated" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,6 +15,16 @@ namespace VariosPagina
         public Desinho()
         {
             InitializeComponent();
+            navegador.Source = "https://www.minutoseguros.com.br/";
+        }
+        
+        private void PagOnNavigating(object sender, WebNavigatingEventArgs e)
+        {
+            lblStatus.Text = "Carregando página...";
+        }
+        private void PagOnNavigated(object sender, WebNavigatedEventArgs e)
+        {
+            lblStatus.Text = "Página carregada...";
         }
     }
 }
